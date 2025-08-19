@@ -1,15 +1,15 @@
 <!--
 This is the master template for the readme-forge project.
-Placeholders like Test Project will be replaced by the CLI tool.
+Placeholders like {{ project_name }} will be replaced by the CLI tool.
 -->
 
-# Test Project
+# {{ project_name }}
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-{{ license }}-blue.svg)
 
 ## Introduction
 
-This is a test project for readme-forge.
+{{ project_description }}
 
 ## Features
 
@@ -27,13 +27,13 @@ This is a test project for readme-forge.
 ### Installation
 
 ```bash
-pip install test-project
+{{ installation_instructions }}
 ```
 
 ## Usage
 
 ```
-python -m test_project
+{{ usage_instructions }}
 ```
 
 ## API Reference
@@ -62,13 +62,13 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the {{ license }} License. See `LICENSE` for more information.
 
 ## Contact
 
 Your Name – [@your_twitter](https://twitter.com/your_twitter) – email@example.com
 
-Project Link: [https://github.com/testuser/Test Project](https://github.com/testuser/Test Project)
+Project Link: [https://github.com/{{ github_username }}/{{ project_name }}](https://github.com/{{ github_username }}/{{ project_name }})
 
 ## Acknowledgments
 
